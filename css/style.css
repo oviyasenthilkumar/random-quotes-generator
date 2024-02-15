@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+#container {
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    margin-top: 20px;
+}
+.fa-solid{
+    color: rgb(199, 67, 96);
+    font-size: 2rem;
+}
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+}
+.quote-author{
+    text-align: right !important;
+    width: 100%;
+}
+.quotes span{
+    padding: 0 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Merienda", cursive;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(230, 53, 53);
+}
